@@ -34,7 +34,7 @@ public class black extends Activity {
 	    	public void onClick(View view)
 	    	{
 	    		Intent mf_intent = new Intent();
-	    			mf_intent.setClass(black.this, Activity_list.class);
+	    			mf_intent.setClass(black.this, Tab_activity.class);
 	    		startActivity(mf_intent);
 	    		
 	    	}	
@@ -43,7 +43,7 @@ public class black extends Activity {
 	    	public void onClick(View view)
 	    	{
 	    		Intent eva_intent = new Intent();
-	    			eva_intent.setClass(black.this, Activity_list.class);
+	    			eva_intent.setClass(black.this, Tab_activity.class);
 	    		startActivity(eva_intent);
 	    		
 	    	}	
