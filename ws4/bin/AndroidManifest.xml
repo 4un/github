@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.skip.ws4"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.1" >
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -30,32 +30,38 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" >
         </activity>
+       
         <activity
-            android:name=".Activity_list"
-            android:label="@string/title_activity_activity_list"
-            android:theme="@android:style/Theme.NoTitleBar" >
+            android:name="Tab_activity"
+            android:label="@string/title_activity_tab_activity" 
+            android:theme="@android:style/Theme.NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+               
             </intent-filter>
         </activity>
         <activity
-            android:name=".TestActivity"
-            android:label="@string/title_activity_test" >
+            android:name="card_all"
+            android:theme="@android:style/Theme.NoTitleBar">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />               
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Tab_activity"
-            android:label="@string/title_activity_tab_activity" >
+        
+              <activity
+            android:name="card_char_event"
+            android:theme="@android:style/Theme.NoTitleBar">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />               
+            </intent-filter>
+        </activity>
+        
+              <activity
+            android:name="card_climax"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />               
             </intent-filter>
         </activity>
     </application>
