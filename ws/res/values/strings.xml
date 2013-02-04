@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weiβ Schwarz</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_tab_list">Tab_list</string>
+    <string name="title_activity_all_card_fragment">All_card_fragment</string>
+    <string name="title_activity_char_event">Char_event</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="title_activity_tab_activity">Tab_activity</string>
+    <string name="title_activity_list">List</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_all">All</string>
+
+</resources>
