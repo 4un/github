@@ -38,6 +38,7 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+        
         <activity
             android:name="com.skip.ws.tab.Tab"
             android:label="@string/title_activity_tab" >
