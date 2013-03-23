@@ -38,10 +38,9 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        
         <activity
-            android:name="com.skip.ws.tab.Tab"
-            android:label="@string/title_activity_tab" >
+            android:name="com.skip.ws.fragment.Pager"
+            android:label="@string/title_activity_pager" >
         </activity>
     </application>
 

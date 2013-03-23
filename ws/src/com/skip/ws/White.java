@@ -1,8 +1,7 @@
 package com.skip.ws;
 
-import android.os.Bundle;
 import android.app.Activity;
-import android.view.Menu;
+import android.os.Bundle;
 
 public class White extends Activity {
 
@@ -12,9 +11,5 @@ public class White extends Activity {
         setContentView(R.layout.activity_white);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.activity_white, menu);
-        return true;
-    }
+  
 }

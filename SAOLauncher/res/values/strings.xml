@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">SAO Launcher</string>
+	<string name="menu_notification">Notification</string>
+	<string name="menu_wallpaper">Wallpaper</string>
+	<string name="menu_settings">Settings</string>
+</resources>
