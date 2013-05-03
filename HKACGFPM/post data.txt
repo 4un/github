@@ -1,0 +1,11 @@
+answer=
+cookietime=0
+formhash=234a6898
+loginfield=username
+loginmode=
+loginsubmit=true
+password=112961
+questionid=0
+referer=http://hkacgf.net/index.php
+styleid=
+username=skip
