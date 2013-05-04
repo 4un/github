@@ -36,4 +36,13 @@
         android:layout_marginBottom="57dp"
         android:text="Login" />
 
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp"
+        android:text="" />
+
 </RelativeLayout>
